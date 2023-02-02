@@ -1,3 +1,18 @@
+<!--Docuemntation steps -->
+
+1. Creating the next.js app with the tailwind
+   npx create-next-app@latest -e with-tailwindcss .
+
+2. Installation of Netlify Cli for server purpose
+   npm install netlify-cli -g
+   ntl dev <!-- Starts the Netlify server -->
+
+3. Deploying on Netlify
+   ntl init
+
+4. Runing the Next app
+   npm run dev
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
