@@ -8,7 +8,7 @@ const TrendingCard = ({ icon, title, trendingData }) => {
     <div className="w-full p-5 py-3 mr-3 pb-0 bg-[#323546] rounded-xl text-white">
       <div className="flex justify-between items-center text-md mb-3">
         <div className="flex ">
-          {icon && <Image src={icon} width={27} height={27} />}{" "}
+          {icon && <Image src={icon} alt="icon" width={27} height={27} />}{" "}
           <h1 className="font-bold pl-2">{title}</h1>
         </div>
 
