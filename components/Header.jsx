@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "../assets/logo2.png";
 import Search from "../assets/svg/search";
-import { ConnectButton } from "Web3uikit";
+import { ConnectButton } from "web3uikit";
 
 const styles = {
   header:
